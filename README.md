@@ -1,31 +1,27 @@
-✅ Real-Time Messaging
+# Tharthara — Real-Time Chat Backend (Spring Boot + WebSocket + STOMP + MySQL)
 
-WebSocket + STOMP endpoints
+A production-ready backend for a real-time chat application built with Spring Boot, WebSockets, STOMP, MySQL, and Flyway.  
+Supports public chat, private messaging, and message history persistence.
 
-Public chat (/topic/public)
+---
 
-Private chat (/user/{username}/queue/messages)
+## 🚀 Features
 
-✅ Secure, Scalable WebSocket Setup
+- Real-time messaging with WebSocket + STOMP  
+- Public chat (`/topic/public`)  
+- Private chat (`/user/{username}/queue/messages`)  
+- Persistent chat history in MySQL  
+- Flyway migrations  
+- Clean layered architecture (Controller → Service → Repository)
 
-STOMP message routing
+---
 
-SimpleBroker + user queues
+## 🛠 Technologies
 
-SockJS fallback supported
+- Java 17  
+- Spring Boot 3  
+- Spring WebSocket / STOMP  
+- MySQL  
+- Flyway  
 
-✅ Persistent Chat History
 
-Messages saved in MySQL
-
-Flyway database migrations
-
-User–Message relations
-
-✅ Clean Layered Architecture
-
-Controller → Service → Repository
-
-DTO + Entity separation
-
-Automatic dependency injection
